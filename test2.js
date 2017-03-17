@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res) {
-	res.send('Hello world - demo2 - ver1.0!\n');
+	res.send('Hello again!\n');
 });
 
 var port = 9000;
